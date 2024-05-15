@@ -16,7 +16,7 @@ const config = {
   url: 'https://KP-31-Pshenychka-Mykhailo.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/lab2-oksm-mysite/',
+  baseUrl: '/my-site/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
