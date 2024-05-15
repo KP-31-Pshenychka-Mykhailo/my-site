@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/white.svg').default,
+    Svg: require('@site/static/img/EasytoUse.svg').default,
     description: (
       <>
        Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Focus on What Matters',
-    Svg: require('@site/static/img/white.svg').default,
+    Svg: require('@site/static/img/FocusonWhatMatters.svg').default,
     description: (
       <>
        Docusaurus lets you focus on your <code>docs</code>, and we'll do the chores. Go ahead and move your <code>docs</code> into the <code>docs</code> directory.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Powered by React',
-    Svg: require('@site/static/img/white.svg').default,
+    Svg: require('@site/static/img/PoweredbyReact.svg').default,
     description: (
       <>
        Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same header and footer.
