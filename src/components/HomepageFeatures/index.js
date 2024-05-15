@@ -4,52 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '',
+    title: 'Easy to Use',
     Svg: require('@site/static/img/white.svg').default,
     description: (
       <>
-       
+       Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly.
       </>
     ),
   },
   {
-    title: <h1>Kebab</h1>,
-    Svg: require('@site/static/img/image2vector1.svg').default,
+    title: 'Focus on What Matters',
+    Svg: require('@site/static/img/white.svg').default,
     description: (
       <>
-    <h3>Ingredients:</h3>
-    <ul>
-        <li>500 g chicken fillet, cut into strips</li>
-        <li>2-3 tablespoons olive oil</li>
-        <li>2 teaspoons turmeric</li>
-        <li>2 teaspoons cumin</li>
-        <li>1 teaspoon cayenne pepper</li>
-        <li>1 teaspoon paprika</li>
-        <li>1 teaspoon salt</li>
-        <li>1/2 teaspoon black pepper</li>
-        <li>2 cloves garlic, minced</li>
-        <li>4-6 pit breads</li>
-        <li>Lettuce leaves</li>
-        <li>Tomatoes, sliced</li>
-        <li>Cucumbers, sliced</li>
-        <li>Red onion, cut into half rings</li>
-        <li>Mayonnaise or tahini sauce for serving</li>
-        <li>Lemon wedges for serving</li>
-    </ul>
-
-    <h3>Instructions:</h3>
-    <ol>
-        <li>In a large bowl, combine olive oil, turmeric, cumin, cayenne pepper, paprika, salt, black pepper, and minced garlic. Add the chicken and stir well to coat the chicken evenly in the spices. Leave for 15-20 minutes to marinate.</li>
-        <li>Heat a frying pan over medium heat. Fry marinated chicken for 8 to 10 minutes or until cooked through, stirring occasionally to prevent burning. The chicken should be golden and cooked through.</li>
-        <li>Heat the pita bread in the oven or in a frying pan until warm.</li>
-        <li>To assemble the shawarma, take one pita bread and top it with lettuce, fried chicken, tomato slices, cucumber slices, and red onion half rings. Top with mayonnaise or tahini sauce if desired. Wrap the pita into a cone or roll shape.</li>
-        <li>Serve the shawarma hot with lemon wedges on the side for added freshness.</li>
-    </ol>
-
-    <p>Bon appétit!</p>
+       Docusaurus lets you focus on your <code>docs</code>, and we'll do the chores. Go ahead and move your <code>docs</code> into the <code>docs</code> directory.
       </>
     ),
   },
+  {
+    title: 'Powered by React',
+    Svg: require('@site/static/img/white.svg').default,
+    description: (
+      <>
+       Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same header and footer.
+      </>
+    ),
+  }
   
 ];
 
